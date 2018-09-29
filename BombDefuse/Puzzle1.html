@@ -17,20 +17,18 @@
     <p class="column" id="Begin">Your first Puzzle is not timed.</p>
     <p class="column" id="Question" style="visibility:collapse">2 + _ = 4</p>
     <form class="column" id="Form" style="visibility:collapse">
-        <input type="radio" name="number" value="1" checked> 1<br>
-        <input type="radio" name="number" value="2"> 2<br>
-        <input type="radio" name="number" value="3"> 3<br>
-        <input type="submit" value="submit" onclick="myFunction(number)" />
+        <input type="radio" name="number" value="/" checked> 1<br>
+        <input type="radio" name="number" value="x"> 2<br>
+        <input type="radio" name="number" value="x"> 3<br>
+        <input type="submit" value="submit" onclick="myFunction(radio)" />
     </form>
     <button type="button" onclick="document.getElementById('Begin').style.visibility = 'collapse'; document.getElementById('Question').style.visibility='visible'; document.getElementById('Form').style.visibility='visible'">Click to start</button>
     <script>
         function myFunction(x) {
-            if (x == 2) {
-                <a href="/combo_4.html" ></ a>
-            }
-            else {
-                <a href="/combo_9.html" ></ a>
-            }
+            for (i = 0; i < document.FormName["x"].length; i++) {
+                if (document.FormName["x"][i].checked) {
+                    window.open(document.FormName["x"][i].value);
+                    break;
         }
     </script>
 
