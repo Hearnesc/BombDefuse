@@ -58,6 +58,10 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="combo_7.html" />
+    <Content Include="combo_3.html" />
+    <Content Include="combo_4.html" />
+    <Content Include="combo_9.html" />
     <Content Include="defuse_arduino_home.html" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
