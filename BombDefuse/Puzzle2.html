@@ -1,9 +1,48 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <title>Puzzle 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/default.css">
 </head>
 <body>
-    <div>Content goes here.</div>
+    <script>
+        var a1 = false;
+        var a2 = false;
+        var a3 = false;
+    </script>
+    <header class="header">Defuse the Ardiuno</header>
+    <div class=" topnav">
+        <a href="defuse_arduino_home.html">Home</a>
+        <a href="Puzzle1.html">Puzzle 1</a>
+        <a href="#">Puzzle 2</a>
+        <a href="Puzzle3.html">Puzzle 3</a>
+    </div>
+    <p class="column" id="Begin">Your Puzzle 2.</p>
+    <p class="column" id="Question" style="visibility:collapse">2 + _ = 4</p>
+    <form class="column" id="Form" style="visibility:collapse" action="defuse_arduino_home.html">
+        <select name="color">
+            <option value="yellow" style="color : yellow">Yellow</option>
+            <option value="red" style="color : red">Red</option>
+            <option value="green" style="color : green">Green</option>
+            <option value="blue" style="color : blue">Blue</option>
+        </select>
+        <input type="button" name="guess" value="guess">
+        <input type="submit" value="submit" onclick="myFunction(number)" style="visibility: hidden"/>
+    </form>
+    <button type="button" onclick="document.getElementById('Begin').style.visibility = 'collapse'; document.getElementById('Question').style.visibility='visible'; document.getElementById('Form').style.visibility='visible'">Click to start</button>
+    <script>
+        function myFunction(x) {
+            if (x.value == '2') {
+
+                document.getElementById("Form").action = "combo_4.html";
+            }
+            else {
+                document.getElementById("Form").action = "combo_9.html";
+            }
+        }
+    </script>
+
 </body>
 </html>
