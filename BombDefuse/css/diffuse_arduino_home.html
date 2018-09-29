@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://homepages.uc.edu/~hearnesc/">
 <head>
@@ -8,26 +8,45 @@
 </head>
 <style>
     .header {
-        background-color: lightgray;
+        background-color: black;
+        color: red;
+        margin-bottom : 5px;
+        font-size : 30pt;
+        font-family : 'Courier New';
+        font-weight : bold;
         text-align: center;
         padding: 20px
     }
 
     .topnav {
+        overflow: hidden;
+        background-color: darkgrey;
     }
 
         .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
         }
 
             .topnav a:hover {
+                background-color: #ddd;
+                color: black;
             }
 
     .column {
         float: left;
-        width: 33.33%
+        width: 33.33%;
+        margin-bottom : 5px;
     }
 
     .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 
     @media screen and (max-width: 600px) {
@@ -36,16 +55,16 @@
         }
     }
 
-    paragraph {
-        padding: 10px;
-        font-size: 14pt;
-        text-align: right;
-        margin: 20px;
-        background-color: lightblue;
-    }
 </style>
 <body>
-    <header>Diffuse the Arduino</header>
-    <paragraph>Description of the game goes here... </paragraph>
+    <header class="header">Diffuse the Arduino</header>
+    <div class=" topnav">
+        <a href="#">Puzzle 1</a>
+        <a href="#">Puzzle 2</a>
+        <a href="#">Puzzle 3</a>
+    </div>
+    <info class="column">Info goes here....</info>
+    <info2 class="column">Info goes here...</info2>
+    <info3 class="column">Info goes here...</info3>
 </body>
 </html>
