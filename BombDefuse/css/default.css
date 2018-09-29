@@ -40,8 +40,10 @@
 
 .column {
     float: left;
-    padding-bottom: 600px;
-    width: 47%;
+    padding: 30px;
+    font-size: 16pt;
+    line-height: 30px;
+    width: 90%;
     position: center;
     margin: 20px;
     color: white;
