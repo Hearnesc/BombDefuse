@@ -4,11 +4,16 @@
     <title></title>
 </head>
 <body>
-    <div>Content goes here.</div>
 
-    <p id="demo">JavaScript can hide HTML elements.</p>
-
-    <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+    <p id="Begin">Your first Puzzle is not timed.</p>
+    <p id="Question" style="visibility:collapse">2 + _ = 4</p>
+    <form id="Form" style ="visibility:collapse">
+        <input type="radio" name="number" value="x1" checked> 1<br>
+        <input type="radio" name="number" value="x2"> 2<br>
+        <input type="radio" name="number" value="x3"> 3<br>
+        <input type="submit" value="submit"/>
+    </form>
+    <button type="button" onclick="document.getElementById('Begin').style.visibility = 'collapse'; document.getElementById('Question').style.visibility='visible'; document.getElementById('Form').style.visibility='visible'">Click to start</button>
 
 
 </body>
