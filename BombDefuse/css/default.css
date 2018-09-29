@@ -4,7 +4,7 @@
   */
     background-image: url("https://image.freepik.com/free-vector/abstract-hexagon-dark-red-background_5205-122.jpg");
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: black;
     background-size: 1800px 1000px;
 }
 
@@ -63,7 +63,7 @@
     position: center;
     margin: 20px;
     color: white;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     border-style: solid;
     border-color: darkred;
 }
