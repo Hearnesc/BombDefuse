@@ -1,5 +1,67 @@
 ﻿body {
-  /* Uncomment this to enable scrolling and zooming
+    /* Uncomment this to enable scrolling and zooming
   touch-action: manipulation;
   */
+    background-image: url("https://image.freepik.com/free-vector/abstract-hexagon-dark-red-background_5205-122.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 1800px 1000px;
+}
+
+.header {
+    background-color: black;
+    color: red;
+    margin-bottom: 5px;
+    font-size: 30pt;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-align: center;
+    padding: 20px
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+.column {
+    float: left;
+    padding-bottom: 600px;
+    width: 47%;
+    position: center;
+    margin: 20px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    border-style: solid;
+    border-color: darkred;
+}
+
+    .column colhead {
+        font-size: 20pt;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%
+    }
 }
