@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
+    body {
+        background-image: url("https://image.freepik.com/free-vector/abstract-hexagon-dark-red-background_5205-122.jpg");
+        background-repeat: no-repeat;
+        background-color: black;
+        background-size: 1800px 1000px;
+    }
     .header {
         background-color: black;
         color: red;
@@ -39,8 +45,18 @@
 
     .column {
         float: left;
-        width: 33.33%;
-        margin-bottom : 5px;
+        padding-bottom: 600px;
+        width: 47%;
+        position: center;
+        margin: 20px;
+        color: white;
+        background: rgba(0,0,0,0.6);
+        border-style: solid;
+        border-color: darkred;
+
+    }
+    .column colhead{
+        font-size: 20pt;
     }
 
     .row:after {
@@ -63,8 +79,7 @@
         <a href="#">Puzzle 2</a>
         <a href="#">Puzzle 3</a>
     </div>
-    <info class="column">Info goes here....</info>
-    <info2 class="column">Info goes here...</info2>
-    <info3 class="column">Info goes here...</info3>
+    <info class="column"><colhead>What is Diffuse the Ardiuno?</colhead></info>
+    <info2 class="column"><colhead>How to Play</colhead></info2>
 </body>
 </html>
