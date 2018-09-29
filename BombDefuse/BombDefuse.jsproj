@@ -58,6 +58,10 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="combo_3.html" />
+    <Content Include="combo_4.html" />
+    <Content Include="combo_7.html" />
+    <Content Include="combo_9.html" />
     <Content Include="defuse_arduino_home.html" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
@@ -69,7 +73,6 @@
     <Content Include="images\Wide310x150Logo.scale-200.png" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
-    <Content Include="Correct1.html" />
     <Content Include="Puzzle1.html" />
     <Content Include="Puzzle2.html" />
     <None Include="BombDefuse_TemporaryKey.pfx" />
