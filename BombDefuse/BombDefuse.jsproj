@@ -63,6 +63,11 @@
     <Content Include="combo_7.html" />
     <Content Include="combo_9.html" />
     <Content Include="defuse_arduino_home.html" />
+    <Content Include="images\bombwires1.jpg" />
+    <Content Include="images\bombwires2.jpg" />
+    <Content Include="images\bombwires3.jpg" />
+    <Content Include="images\bombwires4.jpg" />
+    <Content Include="images\bombwires5.jpg" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
     <Content Include="images\SplashScreen.scale-200.png" />
